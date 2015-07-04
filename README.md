@@ -11,5 +11,5 @@
 ---
 请首先确保电脑已经有iTunes<br/>
 Windows：<br/>
-Win32:    "%ProgramFiles%\iTunes\iTunes.exe" /setPrefInt carrier-testing 1
-Win64:    "C:\Program Files (x86)\iTunes\iTunes.exe" /setPrefInt carrier-testing 1
+Win32:    `"%ProgramFiles%\iTunes\iTunes.exe" /setPrefInt carrier-testing 1`(br/)
+Win64:    `"C:\Program Files (x86)\iTunes\iTunes.exe" /setPrefInt carrier-testing 1`(br/)
