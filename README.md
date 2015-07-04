@@ -10,6 +10,12 @@
 操作方法
 ---
 请首先确保电脑已经有iTunes<br/>
-Windows：<br/>
+###Windows：<br/>
+根据操作系统版本运行下面的命令<br/>
 Win32:    `"%ProgramFiles%\iTunes\iTunes.exe" /setPrefInt carrier-testing 1`<br/>
 Win64:    `"C:\Program Files (x86)\iTunes\iTunes.exe" /setPrefInt carrier-testing 1`<br/>
+然后启动iTunes
+###Mac:<br/>
+`defaults write com.apple.itunes carrier-testing -bool true`
+或<br/>
+`defaults write com.apple.itunes carrier-testing -bool YES`
