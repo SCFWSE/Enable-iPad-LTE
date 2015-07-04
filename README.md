@@ -11,11 +11,18 @@
 ---
 请首先确保电脑已经有iTunes<br/>
 ###Windows：<br/>
-根据操作系统版本运行下面的命令<br/>
-Win32:    `"%ProgramFiles%\iTunes\iTunes.exe" /setPrefInt carrier-testing 1`<br/>
-Win64:    `"C:\Program Files (x86)\iTunes\iTunes.exe" /setPrefInt carrier-testing 1`<br/>
-然后启动iTunes
+`"%ProgramFiles%\iTunes\iTunes.exe" /setPrefInt carrier-testing 1`<br/>
+然后启动iTunes<br/>
+打开iPad页面，按住Shift键的同时选择更新，选择运营商配置文件(.ipcc)，打开下载的文件，点按确定。
 ###Mac:<br/>
-`defaults write com.apple.itunes carrier-testing -bool true`
-或<br/>
-`defaults write com.apple.itunes carrier-testing -bool YES`
+`defaults write com.apple.itunes carrier-testing -bool true`<br/>
+若不行，请尝试<br/>
+`defaults write com.apple.itunes carrier-testing -bool YES`<br/>
+然后启动iTunes<br/>
+打开iPad页面，按住Option键的同时选择更新，选择运营商配置文件(.ipcc)，打开下载的文件，点按确定。
+注意事项
+---
+在操作完成后，使用时需打开“数据漫游”开关，同时请修改APN设置，将两个APN都修改为wonet
+副作用
+---
+&#007
